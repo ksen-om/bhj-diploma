@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "Имя",
+      "email": "demo@ru",
+      "password": "demo",
+      "id": "sktwi1bk2l8d7eoaf"
+    },
+    {
+      "name": "Дон Алехандро",
+      "email": "boss@it",
+      "password": "parol",
+      "id": "sktwi1bl1l8d7fsh0"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "зарплата",
+      "user_id": "1",
+      "id": "sktwix0pl8bsp6q3"
+    },
+    {
+      "name": "левое поступление",
+      "user_id": "1",
+      "id": "sktwi13knl8csc4sr"
+    },
+    {
+      "name": "Налог на солнце",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "id": "sktwi1blrl8d7geba"
+    },
+    {
+      "name": "Траты",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "id": "sktwi1bmel8d7gpal"
+    },
+    {
+      "name": "поступление средств",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "id": "sktwi1bmvl8d7hy0x"
+    },
+    {
+      "name": "Заначка в банке",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "id": "sktwi1by6l8d7s0aq"
+    },
+    {
+      "name": "просто счет",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "id": "sktwi1byql8d7t9sc"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "sktwix2dl8bv2tcm",
+      "type": "income",
+      "name": "поступление",
+      "sum": 100000,
+      "account_id": "sktwix0pl8bsp6q3",
+      "user_id": "1",
+      "created_at": "2022-09-21T16:50:32.085Z"
+    },
+    {
+      "id": "sktwixvql8bv37c1",
+      "type": "income",
+      "name": "зарплата",
+      "sum": 20000,
+      "account_id": "sktwix0pl8bsp6q3",
+      "user_id": "1",
+      "created_at": "2022-09-21T16:50:50.208Z"
+    },
+    {
+      "id": "sktwi13grl8cs8ib3",
+      "type": "expense",
+      "name": "еда",
+      "sum": 2000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-09-22T08:18:45.038Z"
+    },
+    {
+      "id": "sktwi13hkl8cs930n",
+      "type": "expense",
+      "name": "Напитки",
+      "sum": 30000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-09-22T08:19:11.878Z"
+    },
+    {
+      "id": "sktwi13i6l8csaoxk",
+      "type": "expense",
+      "name": "одежда ",
+      "sum": 400000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-09-22T08:20:26.935Z"
+    },
+    {
+      "id": "sktwi13l6l8csdnfy",
+      "type": "income",
+      "name": "подарок от крышуемых жителей",
+      "sum": 1000000000,
+      "account_id": "sktwi13knl8csc4sr",
+      "user_id": "1",
+      "created_at": "2022-09-22T08:22:44.973Z"
+    },
+    {
+      "id": "sktwi1bntl8d7iydd",
+      "type": "income",
+      "name": "от живетей деревни Комо",
+      "sum": 5000,
+      "account_id": "sktwi1blrl8d7geba",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "created_at": "2022-09-22T15:26:46.656Z"
+    },
+    {
+      "id": "sktwi1boel8d7jh50",
+      "type": "expense",
+      "name": "сигары",
+      "sum": 2000,
+      "account_id": "sktwi1bmel8d7gpal",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "created_at": "2022-09-22T15:27:10.979Z"
+    },
+    {
+      "id": "sktwi1bpxl8d7lthw",
+      "type": "income",
+      "name": "Дань от соседней мафии",
+      "sum": 10000,
+      "account_id": "sktwi1bmvl8d7hy0x",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "created_at": "2022-09-22T15:29:00.307Z"
+    },
+    {
+      "id": "sktwi1btil8d7ox9y",
+      "type": "income",
+      "name": "дань от рыбаков",
+      "sum": 5000,
+      "account_id": "sktwi1bmvl8d7hy0x",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "created_at": "2022-09-22T15:31:25.173Z"
+    },
+    {
+      "id": "sktwi1bzgl8d7thc5",
+      "type": "income",
+      "name": "заначка",
+      "sum": 100,
+      "account_id": "sktwi1by6l8d7s0aq",
+      "user_id": "sktwi1bl1l8d7fsh0",
+      "created_at": "2022-09-22T15:34:57.796Z"
+    }
+  ]
+}
